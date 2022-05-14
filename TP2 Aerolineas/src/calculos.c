@@ -291,7 +291,7 @@ void correccionApellidos(ePassenger listado[], int tam)
 void mostrarPasajeros(ePassenger listado[], int tam)
 {
 
-	//eEstadoVuelo statusFlight[2]={{1, "activo"},{2,"no activo"}};
+
     int i;
     printf("Lista: \n");
     for (i=0; i<tam; i++)

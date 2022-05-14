@@ -16,7 +16,6 @@ int main(void)
 {
 
 	setbuf(stdout, NULL);
-	eTipoPasajero tipoPasajero[3]={{1, "1era clase"}, {2, "2da clase"}, {3, "3ra clase"}};
 	ePassenger listadoMain[A];
 	iniciarPasajeros (listadoMain, A);
 	harcodearPasajeros(listadoMain, A);
